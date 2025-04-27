@@ -92,3 +92,50 @@
 .suggestion-item:hover {
   background-color: #dedcdc;
 }
+
+@media (max-width: 600px) {
+  .weather-container {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .input-city {
+    width: 78%;
+    margin: 20px auto 10px auto;
+    display: block;
+    font-size: 1rem;
+  }
+  .search-btn {
+    width: 70%;
+    margin: 10px auto;
+    display: block;
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+  .suggestions-list {
+    width: 90%;
+    left: 5%;
+  }
+  .weather-box-heading {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .weather-box-info1,
+  .weather-box-info2 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .forecast-container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  .forecast-card {
+    width: 80%;
+  }
+  .text-greska {
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
